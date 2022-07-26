@@ -1,0 +1,6 @@
+{% for article in all_articles %}
+<img src="{{article.cover_image}}" alt="">
+<h4>{{article.title}}</h4>
+<p>{{article.description}}</p>
+<a href="{% url 'article' article.id %}">Read More...</a>
+{% endfor %}

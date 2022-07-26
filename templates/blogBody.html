@@ -1,0 +1,6 @@
+{% load markdown_extras %}
+
+<h4>{{article.title}}</h4>
+<img src="{{article.cover_image}}" alt="">
+<span>{{article.published_at }}</span>
+<p>{{article.article_body | markdown | safe}}</p>

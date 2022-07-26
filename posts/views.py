@@ -6,7 +6,7 @@ from .models import Article
 def get_articles(request):
     all_articles = {}
 
-    API_KEY = 'LYYghaJbMnyJamydHXfyJSRH'
+    API_KEY = 'API_KEY'
 
     url = 'https://dev.to/api/articles/me/published'
 
